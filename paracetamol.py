@@ -533,11 +533,11 @@ def paracetamol(solvent1, T1, solvent2, T2, solvent3, T3, solvent4, catalyst4, T
     c = -0.4
 
     objective = a*YIELD + b*TOTAL_COST + c*TOTAL_ENVIRONMENTAL_COST
-    print(YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective)
+    #print(YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective)
     return [YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective]
 
 
 #paracetamol(step1solvent[0], T, step2solvent[0], T2, step3solvent[0], T3, step4solvent[0], step4catalyst[0], T4, step5solvent[0], step5catalyst[0], T5, step6solvent[0], step6catalyst[0], T6)
 #paracetamol(step1solvent[0], T, step2solvent[0], T2, step3solvent[1], T3, step4solvent[0], step4catalyst[0], T4, step5solvent[0], step5catalyst[0], T5, step6solvent[0], step6catalyst[0], T6)
-paracetamol(2, 330,   3, 310,   4, 288,   3,   3, 430,   3,   3, 400,   3, 3, 540)
-paracetamol(2, 298,   3, 313,   4, 298,   3,   1, 428,   4,   4, 378,   4, 4, 540)
+#paracetamol(2, 330,   3, 310,   4, 288,   3,   3, 430,   3,   3, 400,   3, 3, 540)
+#paracetamol(2, 298,   3, 313,   4, 298,   3,   1, 428,   4,   4, 378,   4, 4, 540)
