@@ -183,12 +183,12 @@ def s12(step1solvent, T1, step2solvent, T2):
 
     objective = a*YIELD + b*TOTAL_COST + c*TOTAL_ENVIRONMENTAL_COST
 
-    print(YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective)
+    #print(YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective)
     return [YIELD, TOTAL_COST, TOTAL_ENVIRONMENTAL_COST, objective]
 
 
 #s12(1, 293, 1, 318)
 #s12(step1solvent[0], 288, step2solvent[1], 298)
 
-s12(2, 350,   3, 310)
-s12( 2, 305,   3, 330)
+#s12(2, 350,   3, 310)
+#s12( 2, 305,   3, 330)
